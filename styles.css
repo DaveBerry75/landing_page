@@ -24,7 +24,7 @@ a {
 /* The above code gets rid of some default styles */
 
 .container {
-    max-width: 960px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -147,4 +147,27 @@ img {
     width: 100px;
     height: 100px;
     margin-bottom: 5px;
+}
+
+.card-container div p {
+    font-weight: lighter;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7Eb;
+    padding: 50px 220px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote .cite {
+    text-align: right;
+    margin-top: 5px;
+    font-weight: bold;
 }
