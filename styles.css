@@ -1,5 +1,5 @@
 body {
-    height: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-family: Roboto;
@@ -24,8 +24,16 @@ a {
 /* The above code gets rid of some default styles */
 
 .container {
-    max-width: 900px;
+    max-width: 780px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* Banner Section */
@@ -52,7 +60,7 @@ a {
 
 .header .logo {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .header-links ul {
@@ -65,6 +73,7 @@ a {
 
 .header-links a {
     color: #F9FAF8;
+    font-size: 10px;
     font-weight: 200;
 }
 
@@ -77,14 +86,15 @@ a {
 }
 
 .hero-text .main-text {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .hero-text .secondary-text {
-    font-size: 18px;
+    font-size: 12px;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 
 button {
@@ -97,6 +107,7 @@ button {
 img {
     display: flex;
     color: #F9FAF8;
+    font-size: 10px;
     font-weight: 200;
     text-align: center;
     width: 100%;    
@@ -123,7 +134,7 @@ img {
 
 .content .title {
     color: #1F2937;
-    font-size: 36px;
+    font-size: 22px;
     font-weight: 900;
     text-align: center;
     padding: 20px;
@@ -144,12 +155,13 @@ img {
 .card-container div img {
     border: 2px solid #3882F6;
     border-radius: 15px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 5px;
 }
 
 .card-container div p {
+    font-size: 12px;
     font-weight: lighter;
 }
 
@@ -161,7 +173,7 @@ img {
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 18px;
     color: #1F2937;
     font-weight: lighter;
 }
@@ -183,6 +195,7 @@ img {
     display: flex;
     justify-content: space-around;
     background-color: #3882F6;
+    border-radius: 5px;
     padding: 20px 40px;
     align-items: center;
 }
@@ -208,5 +221,17 @@ button a {
     color: white;
 }
 
+/* Footer */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+}
 
 
