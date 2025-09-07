@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto;
-    background-color: black;
+    background-color: rgb(243, 241, 247);
 }
 
+/* WHEN YOU GET BACK, MAKE THIS LOOK BETTER AND ADD YOUR OWN PICS */
+
 h1,h2,p {
-    margin: 0;
+    margin: 0;                  
     padding: 0;
 }
 
@@ -24,7 +26,7 @@ a {
 /* The above code gets rid of some default styles */
 
 .container {
-    max-width: 780px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -33,7 +35,6 @@ a {
 .main-content {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 /* Banner Section */
@@ -81,14 +82,20 @@ a {
 
 .hero {
     display: flex;
-    margin-top: 45px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     gap: 20px;
+}
+
+.hero-text {
+    padding: 0 100px 0 0;
 }
 
 .hero-text .main-text {
     font-size: 32px;
     font-weight: 900;
     color: #F9FAF8;
+    padding: 0 80px 0 0;
 }
 
 .hero-text .secondary-text {
@@ -119,6 +126,7 @@ img {
     justify-self: center;
     align-items: center;
     background-color: slategray;
+    width: 100px;
 }
 
 .hero .hero-text,
